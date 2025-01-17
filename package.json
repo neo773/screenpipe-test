@@ -1,12 +1,16 @@
 {
   "name": "tests",
   "description": "Tests for the ScreenPipe CLI",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/neo773/screenpipe-test.git"
   },
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "publish-pipe": "screenpipe publish"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
